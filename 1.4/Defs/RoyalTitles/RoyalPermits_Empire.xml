@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ============================= Permits from royal titles ============================= -->
+  <RoyalTitlePermitDef>
+    <defName>CallMercenary</defName>
+    <label>call a group of mercenary</label>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>VFEM_Medieval_Footsoldier</pawnKindDef>
+      <pawnCount>4</pawnCount>
+    </royalAid>
+    <cooldownDays>10</cooldownDays>
+  </RoyalTitlePermitDef>
+  <RoyalTitlePermitDef>
+    <defName>CallLegion</defName>
+    <label>call a group of Legion</label>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <royalAid>
+      <favorCost>12</favorCost>
+      <pawnKindDef>VFEM_Medieval_Footsoldier</pawnKindDef>
+      <pawnCount>12</pawnCount>
+    </royalAid>
+    <cooldownDays>20</cooldownDays>
+  </RoyalTitlePermitDef>
+  <RoyalTitlePermitDef>
+    <defName>CallKnights</defName>
+    <label>call a group of Knights</label>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <royalAid>
+      <favorCost>6</favorCost>
+      <pawnKindDef>VFEM_Medieval_Knight</pawnKindDef>
+      <pawnCount>4</pawnCount>
+    </royalAid>
+    <cooldownDays>20</cooldownDays>
+  </RoyalTitlePermitDef>
+  <RoyalTitlePermitDef>
+    <defName>CallBlackKnights</defName>
+    <label>call a group of BlackKnights</label>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <royalAid>
+      <favorCost>12</favorCost>
+      <pawnKindDef>VFEM_KnightInBlack</pawnKindDef>
+      <pawnCount>8</pawnCount>
+    </royalAid>
+    <cooldownDays>30</cooldownDays>
+  </RoyalTitlePermitDef>
+</Defs>
