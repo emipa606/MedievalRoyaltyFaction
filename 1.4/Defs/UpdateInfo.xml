@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TabulaRasa.UpdateDef Abstract="true" Name="MedievalRoyaltyFaction_UpdateInfoBase">
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2645023261</linkUrl>
+		<banner>UpdateInfo/MedievalRoyaltyFaction</banner>
+	</TabulaRasa.UpdateDef>
+	<TabulaRasa.UpdateDef ParentName="MedievalRoyaltyFaction_UpdateInfoBase">
+		<defName>MedievalRoyaltyFaction_1_4_1</defName>
+		<date>2025/6/7</date>
+		<content>This mod will not be further updated.</content>
+	</TabulaRasa.UpdateDef>
+</Defs>
+
